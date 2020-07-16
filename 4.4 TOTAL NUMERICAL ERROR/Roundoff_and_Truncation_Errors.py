@@ -1,3 +1,8 @@
+#1.python Roundoff_and_Truncation_Errors.py
+#2.from Roundoff_and_Truncation_Errors import *
+#3.f=lambda x:-0.1*x**4-0.15*x**3-0.5*x**2-0.25*x+1.2
+#4.f_dash=lambda x:-0.4*x**3-0.45*x**2-1.0*x-0.25
+#5.diffex(f, f_dash, 0.5,11)
 from numpy import *
 from pandas import *
 import matplotlib.pyplot as plt
