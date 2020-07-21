@@ -1,4 +1,4 @@
-#this is a test
+#this is a test for branch
 #finds bracket of x that contain sign changes of a function on an interval
 #input:
 # func=name of function
