@@ -1,12 +1,12 @@
-#use bisection method to find the root of func
+#確認中
 
+#use bisection method to find the root of func
 #input:
 #  func = name of function
 #  xl, xu = lower and upper guesses
 #  es = desired relative error (default = 0.0001%)
 #  maxit = maximum allowable iterations (default = 50)
 #  *args = additional parameters used by func
-
 #output:
 #  root = real root
 #  fx = function value at root
