@@ -1,6 +1,7 @@
-#確認中
-
 #use bisection method to find the root of func
+#example:
+#  fm=lambda m,cd,t,v:sqrt(9.81*m/cd)*tanh(sqrt(9.81*cd/m)*t)-v
+#  a=bisect(fm,40,200,0.0001,50,0.25,4,36)
 #input:
 #  func = name of function
 #  xl, xu = lower and upper guesses
@@ -12,7 +13,7 @@
 #  fx = function value at root
 #  ea = approximate relative error (%)
 #  itera = number of iterations
-
+from numpy import *
 def bisect(func, xl, xu, es=0.0001, maxit=50, *args):
     test=func(xl, *args)*func(xu, *args)
     if test > 0: return None
