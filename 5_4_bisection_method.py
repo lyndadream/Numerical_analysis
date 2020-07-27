@@ -23,7 +23,7 @@ def bisect(func, xl, xu, es=0.0001, maxit=50, *args):
         itera=itera+1
         if xr !=0:
             ea=abs((xr-xrold)/xr)*100
-        test=func(xl, *args)*func(xu, *args)
+        test=func(xl, *args)*func(xr, *args)
         if test<0:
             xu=xr
         elif test>0:
