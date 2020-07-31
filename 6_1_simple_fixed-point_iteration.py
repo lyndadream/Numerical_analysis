@@ -2,7 +2,7 @@
 #  f(x)=0 → x=g(x)
 #  x[i+1]=g(x[i])
 #use simple fixed-point iteration to locate the root of f(x)=e**(-x)-x
-
+#starting with an initial guess of x[0]=0
 from numpy import *
 from pandas import *
 
