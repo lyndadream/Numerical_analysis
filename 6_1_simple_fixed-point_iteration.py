@@ -1,3 +1,6 @@
+#fixed-point iteration:
+#  f(x)=0 → x=g(x)
+#  x[i+1]=g(x[i])
 #use simple fixed-point iteration to locate the root of f(x)=e**(-x)-x
 
 from numpy import *
