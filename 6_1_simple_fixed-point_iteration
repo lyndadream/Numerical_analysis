@@ -1,1 +1,1 @@
-
+#use simple fixed-point iteration to locate the root of f(x)=e**(-x)-x
