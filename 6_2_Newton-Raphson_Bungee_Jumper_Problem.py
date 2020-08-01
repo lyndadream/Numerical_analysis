@@ -1,9 +1,9 @@
 #memo:
-"""
-from sympy import *
-x=Symbol("x")
-res=diff(x**2, x)
-"""
+#  from sympy import *
+#  x=Symbol("x")
+#  res=diff(x**2, x)
+#  fm = lambda m :sqrt(9.81*m/0.25)*tanh(sqrt(9.81*0.25/m)*4)-36
+
 #use the Newton-Raphson methon to estimate the root of func
 #input:
 #  func=name of function
