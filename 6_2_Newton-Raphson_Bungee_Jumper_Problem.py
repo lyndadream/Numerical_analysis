@@ -1,3 +1,9 @@
+#memo:
+"""
+from sympy import *
+x=Symbol("x")
+res=diff(x**2, x)
+"""
 #use the Newton-Raphson methon to estimate the root of func
 #input:
 #  func=name of function
